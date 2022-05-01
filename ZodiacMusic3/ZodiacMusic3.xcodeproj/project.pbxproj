@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6FE676281D081800965EEA /* ContantVeiwSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */; };
+		DB6FE678281D0A3000965EEA /* ContentViewLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */; };
+		DBF2581A2814DF44009394F8 /* ZodiacMusic3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF258192814DF44009394F8 /* ZodiacMusic3App.swift */; };
+		DBF2581C2814DF44009394F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2581B2814DF44009394F8 /* ContentView.swift */; };
+		DBF2581E2814DF45009394F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF2581D2814DF45009394F8 /* Assets.xcassets */; };
+		DBF258212814DF45009394F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF258202814DF45009394F8 /* Preview Assets.xcassets */; };
+		DBF2582B2814DF45009394F8 /* ZodiacMusic3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2582A2814DF45009394F8 /* ZodiacMusic3Tests.swift */; };
+		DBF258352814DF45009394F8 /* ZodiacMusic3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF258342814DF45009394F8 /* ZodiacMusic3UITests.swift */; };
+		DBF258372814DF45009394F8 /* ZodiacMusic3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF258362814DF45009394F8 /* ZodiacMusic3UITestsLaunchTests.swift */; };
+		DBF258442814E3F3009394F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF258432814E3F2009394F8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF258272814DF45009394F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF2580E2814DF44009394F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF258152814DF44009394F8;
+			remoteInfo = ZodiacMusic3;
+		};
+		DBF258312814DF45009394F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF2580E2814DF44009394F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF258152814DF44009394F8;
+			remoteInfo = ZodiacMusic3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContantVeiwSignIn.swift; sourceTree = "<group>"; };
+		DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewLogIn.swift; sourceTree = "<group>"; };
+		DBF258162814DF44009394F8 /* ZodiacMusic3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZodiacMusic3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF258192814DF44009394F8 /* ZodiacMusic3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacMusic3App.swift; sourceTree = "<group>"; };
+		DBF2581B2814DF44009394F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBF2581D2814DF45009394F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF258202814DF45009394F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBF258262814DF45009394F8 /* ZodiacMusic3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacMusic3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF2582A2814DF45009394F8 /* ZodiacMusic3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacMusic3Tests.swift; sourceTree = "<group>"; };
+		DBF258302814DF45009394F8 /* ZodiacMusic3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacMusic3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF258342814DF45009394F8 /* ZodiacMusic3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacMusic3UITests.swift; sourceTree = "<group>"; };
+		DBF258362814DF45009394F8 /* ZodiacMusic3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacMusic3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBF258432814E3F2009394F8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF258132814DF44009394F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF258232814DF45009394F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF2582D2814DF45009394F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF2580D2814DF44009394F8 = {
+			isa = PBXGroup;
+			children = (
+				DBF258182814DF44009394F8 /* ZodiacMusic3 */,
+				DBF258292814DF45009394F8 /* ZodiacMusic3Tests */,
+				DBF258332814DF45009394F8 /* ZodiacMusic3UITests */,
+				DBF258172814DF44009394F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF258172814DF44009394F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF258162814DF44009394F8 /* ZodiacMusic3.app */,
+				DBF258262814DF45009394F8 /* ZodiacMusic3Tests.xctest */,
+				DBF258302814DF45009394F8 /* ZodiacMusic3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF258182814DF44009394F8 /* ZodiacMusic3 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF258192814DF44009394F8 /* ZodiacMusic3App.swift */,
+				DBF2581B2814DF44009394F8 /* ContentView.swift */,
+				DBF2581D2814DF45009394F8 /* Assets.xcassets */,
+				DBF2581F2814DF45009394F8 /* Preview Content */,
+				DBF258432814E3F2009394F8 /* LaunchScreen.storyboard */,
+				DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */,
+				DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */,
+			);
+			path = ZodiacMusic3;
+			sourceTree = "<group>";
+		};
+		DBF2581F2814DF45009394F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBF258202814DF45009394F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBF258292814DF45009394F8 /* ZodiacMusic3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF2582A2814DF45009394F8 /* ZodiacMusic3Tests.swift */,
+			);
+			path = ZodiacMusic3Tests;
+			sourceTree = "<group>";
+		};
+		DBF258332814DF45009394F8 /* ZodiacMusic3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF258342814DF45009394F8 /* ZodiacMusic3UITests.swift */,
+				DBF258362814DF45009394F8 /* ZodiacMusic3UITestsLaunchTests.swift */,
+			);
+			path = ZodiacMusic3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF258152814DF44009394F8 /* ZodiacMusic3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF2583A2814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3" */;
+			buildPhases = (
+				DBF258122814DF44009394F8 /* Sources */,
+				DBF258132814DF44009394F8 /* Frameworks */,
+				DBF258142814DF44009394F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZodiacMusic3;
+			productName = ZodiacMusic3;
+			productReference = DBF258162814DF44009394F8 /* ZodiacMusic3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF258252814DF45009394F8 /* ZodiacMusic3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF2583D2814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3Tests" */;
+			buildPhases = (
+				DBF258222814DF45009394F8 /* Sources */,
+				DBF258232814DF45009394F8 /* Frameworks */,
+				DBF258242814DF45009394F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF258282814DF45009394F8 /* PBXTargetDependency */,
+			);
+			name = ZodiacMusic3Tests;
+			productName = ZodiacMusic3Tests;
+			productReference = DBF258262814DF45009394F8 /* ZodiacMusic3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF2582F2814DF45009394F8 /* ZodiacMusic3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF258402814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3UITests" */;
+			buildPhases = (
+				DBF2582C2814DF45009394F8 /* Sources */,
+				DBF2582D2814DF45009394F8 /* Frameworks */,
+				DBF2582E2814DF45009394F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF258322814DF45009394F8 /* PBXTargetDependency */,
+			);
+			name = ZodiacMusic3UITests;
+			productName = ZodiacMusic3UITests;
+			productReference = DBF258302814DF45009394F8 /* ZodiacMusic3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF2580E2814DF44009394F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DBF258152814DF44009394F8 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DBF258252814DF45009394F8 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DBF258152814DF44009394F8;
+					};
+					DBF2582F2814DF45009394F8 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DBF258152814DF44009394F8;
+					};
+				};
+			};
+			buildConfigurationList = DBF258112814DF44009394F8 /* Build configuration list for PBXProject "ZodiacMusic3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF2580D2814DF44009394F8;
+			productRefGroup = DBF258172814DF44009394F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF258152814DF44009394F8 /* ZodiacMusic3 */,
+				DBF258252814DF45009394F8 /* ZodiacMusic3Tests */,
+				DBF2582F2814DF45009394F8 /* ZodiacMusic3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF258142814DF44009394F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF258442814E3F3009394F8 /* LaunchScreen.storyboard in Resources */,
+				DBF258212814DF45009394F8 /* Preview Assets.xcassets in Resources */,
+				DBF2581E2814DF45009394F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF258242814DF45009394F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF2582E2814DF45009394F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF258122814DF44009394F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FE678281D0A3000965EEA /* ContentViewLogIn.swift in Sources */,
+				DB6FE676281D081800965EEA /* ContantVeiwSignIn.swift in Sources */,
+				DBF2581C2814DF44009394F8 /* ContentView.swift in Sources */,
+				DBF2581A2814DF44009394F8 /* ZodiacMusic3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF258222814DF45009394F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF2582B2814DF45009394F8 /* ZodiacMusic3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF2582C2814DF45009394F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF258372814DF45009394F8 /* ZodiacMusic3UITestsLaunchTests.swift in Sources */,
+				DBF258352814DF45009394F8 /* ZodiacMusic3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF258282814DF45009394F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF258152814DF44009394F8 /* ZodiacMusic3 */;
+			targetProxy = DBF258272814DF45009394F8 /* PBXContainerItemProxy */;
+		};
+		DBF258322814DF45009394F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF258152814DF44009394F8 /* ZodiacMusic3 */;
+			targetProxy = DBF258312814DF45009394F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBF258382814DF45009394F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF258392814DF45009394F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF2583B2814DF45009394F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZodiacMusic3/Preview Content\"";
+				DEVELOPMENT_TEAM = 38AQ7M2JAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBF2583C2814DF45009394F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZodiacMusic3/Preview Content\"";
+				DEVELOPMENT_TEAM = 38AQ7M2JAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBF2583E2814DF45009394F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZodiacMusic3.app/ZodiacMusic3";
+			};
+			name = Debug;
+		};
+		DBF2583F2814DF45009394F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZodiacMusic3.app/ZodiacMusic3";
+			};
+			name = Release;
+		};
+		DBF258412814DF45009394F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZodiacMusic3;
+			};
+			name = Debug;
+		};
+		DBF258422814DF45009394F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Magic.ZodiacMusic3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZodiacMusic3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF258112814DF44009394F8 /* Build configuration list for PBXProject "ZodiacMusic3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF258382814DF45009394F8 /* Debug */,
+				DBF258392814DF45009394F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF2583A2814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF2583B2814DF45009394F8 /* Debug */,
+				DBF2583C2814DF45009394F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF2583D2814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF2583E2814DF45009394F8 /* Debug */,
+				DBF2583F2814DF45009394F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF258402814DF45009394F8 /* Build configuration list for PBXNativeTarget "ZodiacMusic3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF258412814DF45009394F8 /* Debug */,
+				DBF258422814DF45009394F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF2580E2814DF44009394F8 /* Project object */;
+}
