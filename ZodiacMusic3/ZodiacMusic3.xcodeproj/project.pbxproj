@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8D5EE802826E29000ACB734 /* ContinueAsGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5EE7F2826E29000ACB734 /* ContinueAsGuest.swift */; };
 		DB6FE676281D081800965EEA /* ContantVeiwSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */; };
 		DB6FE678281D0A3000965EEA /* ContentViewLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */; };
 		DBF2581A2814DF44009394F8 /* ZodiacMusic3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF258192814DF44009394F8 /* ZodiacMusic3App.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8D5EE7F2826E29000ACB734 /* ContinueAsGuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueAsGuest.swift; sourceTree = "<group>"; };
 		DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContantVeiwSignIn.swift; sourceTree = "<group>"; };
 		DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewLogIn.swift; sourceTree = "<group>"; };
 		DBF258162814DF44009394F8 /* ZodiacMusic3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZodiacMusic3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				DBF258432814E3F2009394F8 /* LaunchScreen.storyboard */,
 				DB6FE675281D081800965EEA /* ContantVeiwSignIn.swift */,
 				DB6FE677281D0A3000965EEA /* ContentViewLogIn.swift */,
+				A8D5EE7F2826E29000ACB734 /* ContinueAsGuest.swift */,
 			);
 			path = ZodiacMusic3;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				DB6FE676281D081800965EEA /* ContantVeiwSignIn.swift in Sources */,
 				DBF2581C2814DF44009394F8 /* ContentView.swift in Sources */,
 				DBF2581A2814DF44009394F8 /* ZodiacMusic3App.swift in Sources */,
+				A8D5EE802826E29000ACB734 /* ContinueAsGuest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

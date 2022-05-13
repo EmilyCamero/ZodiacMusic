@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct ContentViewSignIn : View {
+struct ContentViewSignUp : View {
     @State var username: String = ""
     
         var body: some View {
@@ -50,9 +50,7 @@ struct ContentViewSignIn : View {
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                         }.padding()
                 }
-                }
-                
-                }.navigationBarTitle("")
-                .navigationBarHidden(true)
             }
-        }
+        }.navigationBarTitle("")
+    }
+}
