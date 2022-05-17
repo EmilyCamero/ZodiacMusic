@@ -8,32 +8,40 @@
 import Foundation
 import SwiftUI
 
+//create an array object with zodiac signs
+let zodiacs = ["Aquarius Jan 20 to Feb 18", "Pisces Feb 19 to Mar 20", "Aries Mar 21 to April 19", "Taurus April 20 to May 20", "Gemini May 21 to Jun 21", "Cancer Jun 22 to Jul 22", "Leo Jul 23 to Aug 22", "Virgo Aug 23 to Sep 22", "Libra Sep 23 to Oct 23", "Scorpius Oct 24 to Nov 21", "Sagittarius Nov 22 to Dec 21", "Capricorn Dec 22 to Jan 19"]
+
+
 struct ContinueAsGuest : View {
+    @State var selected = ""
     var body: some View {
-        ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color.teal, Color.purple]), startPoint: /*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/)
-            .ignoresSafeArea()
-            VStack {
-                Text("What is your zodiac sign?")
-                    .font(.largeTitle)
-                Picker(selection: /*@START_MENU_TOKEN@*/.constant(1)/*@END_MENU_TOKEN@*/, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                    /*@START_MENU_TOKEN@*/Text("Aquarius Jan 20–Feb 18").tag(1)/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Pisces (Feb 19–Mar 20)").tag(2)/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Aries (Mar 21–April 19)").tag(3)/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Taurus (April 20–May 20)").tag(4)/*@END_MENU_TOKEN@*/
-                    Text("Gemini (May 21–Jun 21)").tag(5)
-                    Text("Cancer (Jun 22 – Jul 22)").tag(6)
-                    /*@START_MENU_TOKEN@*/Text("Leo (Jul 23–Aug 22)").tag(7)/*@END_MENU_TOKEN@*/
-                    Text("Virgo ( Aug 23–Sep 22)").tag(8)
-                    Text("Libra (Sep 23–Oct 23)").tag(9)
-                    Text("Scorpius (Oct 24–Nov 21)").tag(10)
-                    Text("Sagittarius (Nov 22–Dec 21)").tag(11)
-                    /*@START_MENU_TOKEN@*/Text("Capricorn (Dec 22–Jan 19)").tag(12)/*@END_MENU_TOKEN@*/
-                    
+        NavigationView {
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [Color.teal, Color.purple]), startPoint: /*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/)
+                .ignoresSafeArea()
+                VStack {
+                    Text("Welcome Guest!")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                    Spacer()
+                    Text("What is your zodiac sign?")
+                        .font(.largeTitle)
+                    Spacer()
+                    Picker("Select your Zodiac sign", selection: $selected) {
+                        ForEach(zodiacs, id: \.self) {
+                            Text($0)
+                        }
+                    }
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    Spacer()
+                    NavigationLink(destination: zodiacMusic(selected: $selected)) {
+                        Text("Continue with \(selected)")
+                            .foregroundColor(Color.black)
+                    }
+                    Spacer()
                 }
-                
+                Spacer()
             }
-            Spacer()
         }
     }
     
